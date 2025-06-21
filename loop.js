@@ -54,13 +54,64 @@ j++
 let num1=[31,32,33,34,35,36,37,38,39,40]
 var l=0
 while(l<num1.length){
-if(num1[l%2!=0]){
+if(num1[l]%2!=0){
     console.log(`${num1[l]}`);
     
 }
 
+
     l++
 }
+let b=0
+do {
+   console.log(b);
+   b++ 
+} while (b<10);
+let num2=[11,12,13,14]
+var sum2=0
+let n=0
+do {
+    sum2=sum2+num2[n]
+    console.log(sum2);
+    
+    
+
+    n++
+} while (n<num2.length);
+let num3=[11,12,13,14,15];
+let m=0
+do {
+    if(num3[m]%2==0){
+        console.log(`${num3[m]}`);
+        
+    }
+    m++
+} while (m<num3.length);
+let num4=[11,12,13,14,15]
+let p=0
+do {
+    if(num4[p]%2!=0){
+        console.log(`${num4[p]}`);
+        
+    }
+
+    p++
+} while (p<num4.length);
+
+for(i=0;i<10;i++){
+    if(i===5){
+        break;
+    }
 
 
+console.log(i);
+
+}
+for(j=0;j<10;j++){
+    if(j==5 || j==7){
+        continue;
+    }
+    console.log(j);
+    
+}
 
